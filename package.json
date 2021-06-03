@@ -1,0 +1,22 @@
+{
+  "name": "ahpronto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabischima/ahpronto.git"
+  },
+  "keywords": [
+    "ahpronto"
+  ],
+  "author": "Gabriela Schirmer Mauricio <gabismauricio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabischima/ahpronto/issues"
+  },
+  "homepage": "https://github.com/gabischima/ahpronto#readme"
+}
