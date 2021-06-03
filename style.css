@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.ahpronto {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  -webkit-animation-name: shake;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-name: shake;
+  animation-delay: 1s;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-iteration-count:infinite;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
